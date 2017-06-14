@@ -71,6 +71,11 @@ main {
   display: inline-block;
   padding: 1rem;
 }
+.site-nav .nav-item a:hover,
+.site-nav .nav-item--home a:hover {
+  text-decoration: underline;
+  opacity: .7;
+}
 
 @media (min-width: 700px) {
   .site-nav .nav-items {
