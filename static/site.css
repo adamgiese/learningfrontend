@@ -100,6 +100,21 @@ main {
   }
 }
 
+/* billboard */
+
+.billboard {
+  font-size: 2rem;
+}
+.billboard-title {
+  word-spacing: 1000px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.billboard-description {
+  max-width: 600px;
+  font-size: 1.4rem;
+}
+
 /* hugo list */
 .list-header {
   text-align: center;
