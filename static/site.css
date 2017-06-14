@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-nav {
   background: white;
   font-family: Georgia, serif;
+  margin-bottom: 12px;
 }
 .wf-active .site-nav {
   font-family: "BioRhyme", Georgia, serif;
@@ -79,7 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* cards */
 
-.cards--podcast {
+.cards--podcast,
+.cards--blog {
   list-style: none;
   padding: 0;
   display: flex;
@@ -87,7 +89,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.cards--podcast .card {
+.cards--podcast .card,
+.cards--blog .card {
   background: white;
   max-width: 308px;
   margin: 12px;
