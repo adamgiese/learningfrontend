@@ -31,7 +31,38 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "BioRhyme", Georgia, serif;
 }
 
-/* hugo list styling */
+/* site nav */
+
+.site-nav {
+  background: white;
+  font-family: Georgia, serif;
+}
+.wf-active .site-nav {
+  font-family: "BioRhyme", Georgia, serif;
+}
+
+.site-nav .nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.site-nav .nav-item {
+  flex: 0 auto;
+  justify-self: flex-end;
+}
+
+.site-nav .nav-item--home {
+  flex: 1;
+}
+.site-nav .nav-item a,
+.site-nav .nav-item--home a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* hugo list */
 .list-header {
   text-align: center;
   margin-bottom: 24px;
@@ -39,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid black;
 }
 
-/* cards styling */
+/* cards */
 
 .cards--podcast {
   list-style: none;
