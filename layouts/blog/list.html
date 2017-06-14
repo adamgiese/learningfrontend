@@ -4,7 +4,7 @@
     <h1 class="list-title">Blogs</h1>
     <p class="list-description">Read thoughts and guides by the best in the industry.</p>
   </div>
-  <ul class="cards--blog">
+  <ul class="cards cards--blog">
     {{ range .Data.Pages }}
       {{ .Render "summary"}}
     {{ end }}

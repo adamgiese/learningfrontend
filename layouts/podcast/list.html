@@ -4,7 +4,7 @@
     <h1 class="list-title">Podcasts</h1>
     <p class="list-description">Podcasts are a great resource to stay on top of industry trends during your daily commute.</p>
   </div>
-  <ul class="cards--podcast">
+  <ul class="cards cards--podcast">
     {{ range .Data.Pages }}
       {{ .Render "summary"}}
     {{ end }}
