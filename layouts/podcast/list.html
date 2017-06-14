@@ -1,0 +1,11 @@
+{{ partial "header" . }} 
+<div class="list-header">
+  <h1 class="list-title">Podcasts</h1>
+  <p class="list-description">Podcasts are a great resource to stay on top of industry trends during your daily commute.</p>
+</div>
+<ul class="cards--podcast">
+  {{ range .Data.Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+</ul>
+{{ partial "footer" . }} 
