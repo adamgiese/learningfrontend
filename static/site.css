@@ -36,6 +36,14 @@ h6 {
   font-family: "BioRhyme", Georgia, serif;
 }
 
+a {
+  color: #f44336;
+}
+
+a:visited {
+  color: #b71c1c;
+}
+
 main {
   padding: 0 12px;
 }
