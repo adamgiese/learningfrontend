@@ -42,24 +42,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-nav .nav-items {
-  display: flex;
   list-style: none;
+  text-align: center;
 }
 
-.site-nav .nav-item {
-  flex: 0 auto;
-  justify-self: flex-end;
-}
-
-.site-nav .nav-item--home {
-  flex: 1;
-}
 .site-nav .nav-item a,
 .site-nav .nav-item--home a {
   text-decoration: none;
   color: black;
   display: inline-block;
   padding: 1rem;
+}
+
+@media (min-width: 700px) {
+  .site-nav .nav-items {
+    display: flex;
+    text-align: left;
+  }
+  .site-nav .nav-item {
+    flex: 0 auto;
+    justify-self: flex-end;
+  }
+
+  .site-nav .nav-item--home {
+    flex: 1;
+  }
 }
 
 /* hugo list */
