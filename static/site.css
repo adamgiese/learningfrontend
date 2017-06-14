@@ -114,8 +114,7 @@ main {
 
 /* cards */
 
-.cards--podcast,
-.cards--blog {
+.cards {
   list-style: none;
   padding: 0;
   display: flex;
@@ -123,11 +122,21 @@ main {
   justify-content: center;
 }
 
-.cards--podcast .card,
-.cards--blog .card {
+.card {
   background: white;
   max-width: 308px;
   margin: 12px;
   padding: 12px;
   box-shadow: inset #a7a7a7 0 0 10px 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-cta {
+  margin-top: auto;
+  border-left: 4px solid currentColor;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
 }
