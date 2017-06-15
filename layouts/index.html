@@ -4,5 +4,9 @@
     <h2 class="billboard-title">Everybody learns differently.</h2>
     <p class="billboard-description">This site is a curated set of front-end resources designed to fit <em>your</em> learning style. Whether you prefer <a href="/podcast">listening to podcasts</a> or <a href="/blog">reading blog posts</a>, I have some suggestions for leveling up your skills.</p>
   </div>
+  <hr />
+  <section>
+    {{ partial "home.md" | markdownify}}
+  </section>
 </main>
 {{ partial "footer" . }} 
