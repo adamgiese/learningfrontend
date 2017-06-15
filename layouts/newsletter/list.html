@@ -1,0 +1,13 @@
+{{ partial "header" . }} 
+<main>
+  <div class="list-header">
+    <h1 class="list-title">Email Newsletters</h1>
+    <p class="list-description">Get great resources delivered right to your email inbox.</p>
+  </div>
+  <ul class="cards cards--newsletter">
+    {{ range .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </ul>
+</main>
+{{ partial "footer" . }} 
