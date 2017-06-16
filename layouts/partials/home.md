@@ -1,4 +1,4 @@
-# How Do You Learn?
+# So, How Do You Learn?
 
 ## Reading
 ### [Books](/book)
