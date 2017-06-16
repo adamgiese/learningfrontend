@@ -1,8 +1,10 @@
 # How Do You Learn?
 
 ## Reading
-### [Blogs](/blog)
+### [Personal Blogs](/personal-blog)
 Read thoughts and guides by the best in the industry.
+### [Online Magazines](/magazine)
+Periodic publications regarding web development.
 ### [Email Newsletters](/newsletter)
 Get great resources delivered right to your email inbox.
 

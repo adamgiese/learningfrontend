@@ -1,0 +1,13 @@
+{{ partial "header" . }} 
+<main>
+  <div class="list-header">
+    <h1 class="list-title">Personal Blogs</h1>
+    <p class="list-description">Read thoughts and guides by the best in the industry.</p>
+  </div>
+  <ul class="cards cards--blog">
+    {{ range .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </ul>
+</main>
+{{ partial "footer" . }} 

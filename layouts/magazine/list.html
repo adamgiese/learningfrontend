@@ -1,10 +1,9 @@
 {{ partial "header" . }} 
 <main>
   <div class="list-header">
-    <h1 class="list-title">Blogs</h1>
-    <p class="list-description">Read thoughts and guides by the best in the industry.</p>
+    <h1 class="list-title">Online Magazines</h1>
   </div>
-  <ul class="cards cards--blog">
+  <ul class="cards cards--magazine">
     {{ range .Data.Pages }}
       {{ .Render "summary"}}
     {{ end }}
