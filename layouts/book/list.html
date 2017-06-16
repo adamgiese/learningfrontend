@@ -1,0 +1,13 @@
+{{ partial "header" . }} 
+<main>
+  <div class="list-header">
+    <h1 class="list-title">Books</h1>
+    <p class="list-description">Some great books, book series, and publishers.</p>
+  </div>
+  <ul class="cards cards--podcast">
+    {{ range .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </ul>
+</main>
+{{ partial "footer" . }} 
