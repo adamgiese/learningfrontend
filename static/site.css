@@ -202,3 +202,8 @@ hr {
   margin-bottom: .5em;
   font-weight: bold;
 }
+
+/* topics */
+.topics {
+  list-style: none;
+}
