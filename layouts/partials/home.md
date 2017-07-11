@@ -12,5 +12,8 @@ Get great resources delivered right to your email inbox.
 
 ## Listening
 ### [Podcasts](/podcast)
-
 Podcasts are a great resource to stay on top of industry trends during your daily commute.
+
+## Watching
+### [Screencasts](/screencast)
+Learn visually by watching industry leaders code.

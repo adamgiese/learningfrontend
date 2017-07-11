@@ -1,0 +1,13 @@
+{{ partial "header" . }} 
+<main>
+  <div class="list-header">
+    <h1 class="list-title">Screencasts</h1>
+    <p class="list-description">Learn visually by watching industry leaders code.</p>
+  </div>
+  <ul class="cards cards--screencast">
+    {{ range .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </ul>
+</main>
+{{ partial "footer" . }} 
