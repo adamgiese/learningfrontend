@@ -60,6 +60,12 @@ main {
   padding: 0 12px;
 }
 
+blockquote {
+  border-left: 4px solid #b71c1c;
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
 .main--page {
   max-width: 500px;
 }
