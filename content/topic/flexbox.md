@@ -16,3 +16,10 @@ After learning the basics of Flexbox, David Gilbertson's covers some interesting
 ### [Flexbox Spec](https://www.w3.org/TR/css-flexbox-1/)
 
 As the above article shows, a lot can be learned from jumping in and reading the technical specifications for a new technology. If you find reading technical specifications intimitading, J. David Eisenberg wrote an article on [How to Read W3C Specs](https://alistapart.com/article/readspec).
+
+## Watching
+
+### [What The Flexbox?!](https://flexbox.io/)
+
+> A simple, free 20 video course that will help you master CSS Flexbox!
+
