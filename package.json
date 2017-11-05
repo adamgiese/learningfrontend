@@ -1,0 +1,24 @@
+{
+  "name": "learningfrontend",
+  "version": "1.0.0",
+  "description": "A Hugo site built as a collection of learning resources regarding frontend development. ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "hugo --watch",
+    "dev": "hugo server",
+    "build": "hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgiese/learningfrontend.git"
+  },
+  "author": "Adam Giese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamgiese/learningfrontend/issues"
+  },
+  "homepage": "https://github.com/adamgiese/learningfrontend#readme",
+  "dependencies": {
+    "hugo-cli": "^0.5.4"
+  }
+}
