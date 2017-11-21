@@ -16,11 +16,11 @@ title = "Git"
   - [Git For Humans](#git-for-humans)
   - [Official Documentation](#official-documentation)
 2. Leveling Up
-  - Pro Git 
+  - [Pro Git](#pro-git)
 3. Tips & Tricks
-  - Git Flight Rules
-  - Oh Shit, Git!
-  - CIA Git Tips & Tricks
+  - [Git Flight Rules](#git-flight-rules)
+  - [Oh Shit, Git!](#oh-shit-git)
+  - [CIA Git Tips & Tricks](#cia-git-tips-tricks)
 
 ## Git Basics
 
@@ -88,9 +88,6 @@ This repository is a simple list of sticky situations that you might find yourse
 >
 > &mdash; <cite>ohshitgit.com</cite>
 
+### CIA Git Tips & Tricks
 
-## Other Resources
-- GitHub Help: https://help.github.com/
-
-## Tips & Tricks
-- CIA Leaked Git: https://wikileaks.org/ciav7p1/cms/page_1179773.html
+[Read Now &raquo;](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
