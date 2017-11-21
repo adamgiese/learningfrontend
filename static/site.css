@@ -27,6 +27,7 @@ h5,
 h6 {
   font-family: Georgia, serif;
 }
+
 .wf-active h1,
 .wf-active h2,
 .wf-active h3,
@@ -58,6 +59,7 @@ a:visited {
 
 ul, ol {
   padding-left: 1.4em;
+  margin-bottom: 1em;
 }
 
 main {
@@ -70,8 +72,10 @@ blockquote {
   margin: 1em 0;
 }
 
+.main--topic,
 .main--page {
-  max-width: 500px;
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 hr {
@@ -216,4 +220,10 @@ hr {
 /* topics */
 .topics {
   list-style: none;
+}
+
+/* main content styling */
+.main h2 {
+  border-bottom: 4px solid currentColor;
+  margin-bottom: .5em;
 }
